@@ -19,32 +19,32 @@ header {
       position: relative;
     }
 
-    .toggle:active {
-      display: none;
-    }
-
-    .active {
-      display: none;
-
-      span {
-        margin: 0;
-      }
-
-      span:nth-child(1) {
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-      }
-
-      span:nth-child(2) {
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-        top: -7px;
-      }
-    }
+    // .toggle:active {
+    //   display: none;
+    // }
+    //
+    // .active {
+    //   display: none;
+    //
+    //   span {
+    //     margin: 0;
+    //   }
+    //
+    //   span:nth-child(1) {
+    //     -webkit-transform: rotate(45deg);
+    //     -moz-transform: rotate(45deg);
+    //     -o-transform: rotate(45deg);
+    //     transform: rotate(45deg);
+    //   }
+    //
+    //   span:nth-child(2) {
+    //     -webkit-transform: rotate(-45deg);
+    //     -moz-transform: rotate(-45deg);
+    //     -o-transform: rotate(-45deg);
+    //     transform: rotate(-45deg);
+    //     top: -7px;
+    //   }
+    // }
   }
 
   .mobile {
@@ -60,7 +60,7 @@ header {
       li {
         a {
           color: white;
-          font-size: 2rem;
+          font-size: 1.7rem;
           font-weight: 900;
           letter-spacing: 1px;
         }
