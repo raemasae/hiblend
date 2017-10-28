@@ -3,6 +3,7 @@
   margin: 0;
   font-size: 16px;
   font-family: 'Montserrat';
+  text-decoration: none;
 }
 
 //colors
@@ -54,9 +55,12 @@ p {
   height: 30px;
   background: transparent;
   border: 2px solid $dark-green;
-  border-radius: 5px;
+  border-radius: 3px;
   color: $dark-green;
   font-size: $paragraph-font-size;
+  text-decoration: none;
+  line-height: 25px;
+  text-transform: uppercase;
 }
 
 @mixin primary-button {
@@ -68,6 +72,7 @@ p {
   color: $dark-green;
   padding: 5px 20px;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 //layout

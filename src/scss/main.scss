@@ -32,7 +32,6 @@
       text-align: center;
       display: flex;
       flex-wrap: wrap;
-      position: relative;
 
       .descriptions-image {
         background: #eee;
@@ -47,6 +46,7 @@
 
       .military-map-image {
         order: 1;
+        position: relative;
       }
 
       .location {
@@ -59,6 +59,7 @@
 
       .room-image {
         order: 4;
+        position: relative;
       }
 
       .location,
@@ -66,24 +67,22 @@
         align-self: center;
       }
 
-      button {
+      .button {
         position: absolute;
+        margin: 0 20px;
       }
 
       .home-guests {
-        top: 35%;
-        left: 15%;
+        bottom: 15px;
+        left: 0;
+        right: 0;
       }
 
       .home-accommodations {
-        top: 85%;
-        right: 5%;
+        bottom: 15px;
+        left: 0;
+        right: 0;
       }
-    }
-
-    button {
-      display: block;
-      margin: 0 auto;
     }
   }
 
@@ -133,6 +132,8 @@
     .highlights {
       @include highlights-layout;
 
+      margin-bottom: 2rem;
+
       div {
         width: calc(50% - 15px);
         border: 0.5px solid $green;
@@ -142,10 +143,6 @@
         justify-content: center;
         align-items: center;
       }
-    }
-
-    button {
-      margin-top: 2rem;
     }
   }
 }
