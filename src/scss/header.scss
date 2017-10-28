@@ -1,0 +1,32 @@
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .mobile {
+    padding: 10px 0 0 15px;
+
+    span {
+      display: block;
+      width: 40px;
+      height: 7px;
+      background: black;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      display: none;
+    }
+  }
+
+  button {
+    height: 40px;
+    border: none;
+    background: $grey;
+    border-bottom: 3px solid $green;
+    border-radius: 0 0 0 10px;
+    color: $green;
+    text-align: center;
+    padding: 5px 20px;
+  }
+}

@@ -1,0 +1,151 @@
+.content {
+  .welcome {
+    .homepage-header-image {
+      width: 100vw;
+      height: $mobile-full-image-height;
+      text-align: center;
+      background: grey;
+    }
+
+    .aloha {
+      text-align: center;
+      order: 1;
+
+      @include section-margins;
+
+      h1 {
+        @include header-aloha;
+
+        margin-bottom: 0;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      p {
+        margin: 20px 0;
+      }
+    }
+
+    .homepage-grid {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+
+      .descriptions-image {
+        background: #eee;
+        width: 50vw;
+        height: 200px;
+      }
+
+      .description {
+        width: 50vw;
+        padding: 0 15px;
+      }
+
+      .military-map-image {
+        order: 1;
+      }
+
+      .location {
+        order: 2;
+      }
+
+      .rooms {
+        order: 3;
+      }
+
+      .room-image {
+        order: 4;
+      }
+
+      .location,
+      .rooms {
+        align-self: center;
+      }
+
+      button {
+        position: absolute;
+      }
+
+      .home-guests {
+        top: 35%;
+        left: 15%;
+      }
+
+      .home-accommodations {
+        top: 85%;
+        right: 5%;
+      }
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .experience-image {
+    width: 100%;
+    height: $mobile-full-image-height;
+    background: #eee;
+  }
+
+  .extra {
+    margin-top: 3rem;
+    text-align: center;
+
+    .highlights {
+      @include highlights-layout;
+
+      div {
+        width: calc(33% - 15px);
+        border: 0.5px solid $green;
+        margin: 0 7.5px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 0.75rem;
+          padding: 0 10px;
+        }
+      }
+    }
+
+    .highlights-image {
+      margin-top: 3rem;
+    }
+  }
+
+  .experience {
+    text-align: center;
+
+    @include section-margins;
+
+    p {
+      margin: 2rem 15px;
+    }
+
+    .highlights {
+      @include highlights-layout;
+
+      div {
+        width: calc(50% - 15px);
+        border: 0.5px solid $green;
+        margin: 0 7.5px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    button {
+      margin-top: 2rem;
+    }
+  }
+}

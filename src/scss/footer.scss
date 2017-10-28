@@ -1,0 +1,51 @@
+footer {
+  background: $teal;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 0;
+
+  h3,
+  p {
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+    letter-spacing: 0.75px;
+  }
+
+  .footer-address {
+    margin: 20px 0;
+
+    .hours {
+      margin: 20px 0 0;
+    }
+  }
+
+  .footer-contact-info {
+    padding-top: 20px;
+
+    p.header {
+      font-weight: 500;
+      font-size: 0.9rem;
+      border-bottom: 1px solid white;
+      padding-bottom: 10px;
+      margin: 15px 100px;
+    }
+
+    .phone {
+      padding-top: 20px;
+    }
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+    margin-top: 30px;
+  }
+
+  .footer-form {
+    display: none;
+
+    label {
+      color: white;
+    }
+  }
+}
