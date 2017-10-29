@@ -1,6 +1,7 @@
 //guests
 .guests-page,
-.accommodations-page {
+.accommodations-page,
+.contact-page {
   h2 {
     text-align: center;
   }
@@ -10,7 +11,8 @@
   }
 
   .guests,
-  .accommodations {
+  .accommodations,
+  .contact {
     position: relative;
 
     h1 {
@@ -87,13 +89,58 @@
 
     .sub-subhead {
       @include sub-subhead-header;
+    }
 
-      width: 70px;
-      margin-bottom: 1rem;
+    .sub-subhead-underline {
+      @include sub-subhead-line;
     }
 
     .amenities-list {
       margin: 2rem 0;
+
+      li {
+        margin-bottom: 15px;
+        font-size: $paragraph-font-size;
+      }
+    }
+  }
+}
+
+//contact
+.contact-page {
+  .contact,
+  .nearby {
+    @include section-margins;
+
+    padding: 0 10px;
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .nearby-list {
+      text-align: left;
+      margin-top: 3rem;
+
+      .sub-subhead {
+        @include sub-subhead-header;
+      }
+
+      .sub-subhead-underline {
+        @include sub-subhead-line;
+      }
+
+      li {
+        margin-bottom: 15px;
+        font-size: $paragraph-font-size;
+
+        span {
+          font-weight: 700;
+          font-size: $paragraph-font-size;
+        }
+      }
     }
   }
 }

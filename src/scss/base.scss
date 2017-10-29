@@ -42,15 +42,22 @@ $cursive: 'Satisfy';
 
 @mixin sub-subhead-header {
   font-weight: 700;
-  border-bottom: 3px solid $font-color;
-  width: 90px;
-  padding-bottom: 3px;
+}
+
+@mixin sub-subhead-line {
+  width: 60px;
+  height: 3px;
+  background: $font-color;
+  margin-bottom: 1rem;
 }
 
 h1,
 h2,
 h3,
-p {
+p,
+span,
+li,
+label {
   color: $font-color;
 }
 
@@ -82,8 +89,8 @@ p {
   color: $dark-green;
   font-size: $paragraph-font-size;
   text-decoration: none;
-  line-height: 25px;
   text-transform: uppercase;
+  padding: 5px;
 }
 
 @mixin primary-button {
