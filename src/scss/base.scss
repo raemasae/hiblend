@@ -16,14 +16,20 @@ $font-color: #828181;
 
 //fonts
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,900|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900|Satisfy');
 
 $paragraph-font-size: 0.9rem;
 $header-font-size: 3rem;
+$primary-font-size: 2rem;
 $secondary-font-size: 1.4rem;
+
+$sans: 'Montserrat';
+$cursive: 'Satisfy';
 
 @mixin header-aloha {
   text-shadow: 5px 5px 4px rgba(112, 126, 139, 0.3);
+  font-weight: 900;
+  font-size: $header-font-size;
 }
 
 h1,
@@ -34,10 +40,10 @@ p {
 }
 
 h1 {
-  font-size: $header-font-size;
+  font-size: $primary-font-size;
   color: $dark-green;
   line-height: 1;
-  font-weight: 900;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -48,6 +54,7 @@ h2 {
 
 p {
   font-size: $paragraph-font-size;
+  line-height: 1.5;
 }
 
 //buttons

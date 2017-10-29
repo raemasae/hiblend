@@ -1,12 +1,15 @@
 .content {
-  .welcome {
-    .homepage-header-image {
-      width: 100vw;
-      height: $mobile-full-image-height;
-      text-align: center;
-      background: grey;
-    }
+  margin-top: 40px;
 
+  .header-image {
+    width: 100vw;
+    height: $mobile-full-image-height;
+    text-align: center;
+    background: grey;
+  }
+
+  .welcome,
+  .guests {
     .aloha {
       text-align: center;
       order: 1;
@@ -120,7 +123,8 @@
     }
   }
 
-  .experience {
+  .experience,
+  .guests {
     text-align: center;
 
     @include section-margins;
