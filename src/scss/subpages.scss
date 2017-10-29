@@ -1,5 +1,6 @@
 //guests
-.guests-page {
+.guests-page,
+.accommodations-page {
   h2 {
     text-align: center;
   }
@@ -8,15 +9,12 @@
     text-align: left;
   }
 
-  .guests {
+  .guests,
+  .accommodations {
     position: relative;
 
     h1 {
-      position: absolute;
-      top: -7rem;
-      left: 0;
-      right: 0;
-      font-size: 3rem;
+      @include subpage-header;
     }
 
     h2 {
@@ -37,6 +35,8 @@
   .guests-tla {
     @include section-margins;
 
+    padding: 0 10px;
+
     h2 {
       font-family: $sans;
       margin-bottom: 2rem;
@@ -47,19 +47,53 @@
 
       span {
         font-weight: 700;
+        font-size: $paragraph-font-size;
       }
     }
 
     .sub-subhead {
-      font-weight: 700;
-      border-bottom: 3px solid $font-color;
-      width: 90px;
-      padding-bottom: 5px;
+      @include sub-subhead-header;
     }
 
     .two {
       border: none;
       width: 100%;
+    }
+  }
+}
+
+//accommodations
+.accommodations-page {
+  .accommodations,
+  .amenities {
+    @include section-margins;
+
+    h2 {
+      padding: 0 10px;
+    }
+
+    .accommodations-room-description {
+      text-align: left;
+      margin: 3rem 10px 0;
+    }
+  }
+
+  .amenities {
+    padding: 0 10px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .sub-subhead {
+      @include sub-subhead-header;
+
+      width: 70px;
+      margin-bottom: 1rem;
+    }
+
+    .amenities-list {
+      margin: 2rem 0;
     }
   }
 }
