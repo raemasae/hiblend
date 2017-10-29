@@ -31,6 +31,10 @@
     .row-split {
       width: calc(50% - 5px);
       margin-right: 10px;
+
+      input {
+        color: #c3c1c1;
+      }
     }
 
     .row-split.last {
