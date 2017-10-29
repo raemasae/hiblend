@@ -3,12 +3,16 @@ header {
   justify-content: flex-end;
   width: 100%;
   background: white;
+  position: fixed;
+  z-index: 2;
 
   .toggle {
     position: absolute;
-    top: 10px;
-    left: 15px;
     z-index: 2;
+
+    .toggle_button {
+      margin: 10px 0 0 15px;
+    }
 
     span {
       display: block;
@@ -20,56 +24,61 @@ header {
     }
   }
 
-  .active {
-    display: none;
-    position: absolute;
-    top: 25px;
-    left: 15px;
+  // .active {
+  //   display: none;
+  //   position: absolute;
+  //   top: 25px;
+  //   left: 15px;
+  //
+  //   span {
+  //     display: block;
+  //     background: white;
+  //     width: 40px;
+  //     height: 7px;
+  //     position: relative;
+  //     z-index: 2;
+  //   }
+  //
+  //   span:nth-child(1) {
+  //     -webkit-transform: rotate(45deg);
+  //     -moz-transform: rotate(45deg);
+  //     -o-transform: rotate(45deg);
+  //     transform: rotate(45deg);
+  //   }
+  //
+  //   span:nth-child(2) {
+  //     -webkit-transform: rotate(-45deg);
+  //     -moz-transform: rotate(-45deg);
+  //     -o-transform: rotate(-45deg);
+  //     transform: rotate(-45deg);
+  //     top: -7px;
+  //   }
+  // }
 
-    span {
-      display: block;
-      background: white;
-      width: 40px;
-      height: 7px;
-      position: relative;
-      z-index: 2;
-    }
-
-    span:nth-child(1) {
-      -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-
-    span:nth-child(2) {
-      -webkit-transform: rotate(-45deg);
-      -moz-transform: rotate(-45deg);
-      -o-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      top: -7px;
-    }
-  }
-
-  .mobile {
-    background: rgba(112, 126, 139, 0.83);
-    position: absolute;
-    z-index: 1;
-
-    .toggle-nav {
-      display: none;
-      padding: 5rem 15px 0 0;
-      height: 100vh;
-
-      li {
-        a {
-          color: white;
-          font-size: 1.7rem;
-          font-weight: 900;
-          letter-spacing: 1px;
-        }
-      }
-    }
+  // .mobile {
+  //   background: rgba(112, 126, 139, 0.83);
+  //   position: absolute;
+  //   z-index: 1;
+  //
+  //   .toggle {
+  //     display: none;
+  //     padding: 5rem 15px 0 0;
+  //     height: 100vh;
+  //
+  //     li {
+  //       a {
+  //         color: white;
+  //         font-size: 1.7rem;
+  //         font-weight: 900;
+  //         letter-spacing: 1px;
+  //       }
+  //     }
+  //   }
+  // }
+  //
+  img {
+    position: relative;
+    z-index: 2;
   }
 
   button {
@@ -82,5 +91,7 @@ header {
     text-align: center;
     padding: 5px 15px;
     font-size: 0.8rem;
+    position: relative;
+    z-index: 2;
   }
 }
