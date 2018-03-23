@@ -2,120 +2,53 @@
   box-sizing: border-box;
   margin: 0;
   font-size: 16px;
-  font-family: 'Montserrat';
+  font-family: 'Arsenal', helvetica;
   text-decoration: none;
+  list-style: none;
 }
 
 //colors
 
-$grey: #707e8b;
-$green: #9debbb;
-$dark-green: #026370;
-$teal: #4daead;
-$font-color: #828181;
+$font-color: #5a5858;
 
 //fonts
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,700,900|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700i|Rock+Salt|Taviraj:300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Arsenal:700');
 
 $paragraph-font-size: 0.9rem;
 $header-font-size: 3rem;
 $primary-font-size: 2.2rem;
 $secondary-font-size: 1.25rem;
 
-$sans: 'Montserrat';
-$cursive: 'Satisfy';
-
-@mixin header-aloha {
-  text-shadow: 5px 5px 4px rgba(112, 126, 139, 0.3);
-  font-weight: 900;
-  font-size: $header-font-size;
-}
-
-@mixin subpage-header {
-  position: absolute;
-  top: -7rem;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-@mixin sub-subhead-header {
-  font-weight: 700;
-}
-
-@mixin sub-subhead-line {
-  width: 60px;
-  height: 3px;
-  background: $font-color;
-  margin-bottom: 1rem;
-}
+$sans: 'Arsenal';
+$serif: 'Taviraj';
+$handwritten: 'Rock Salt', cursive;
 
 h1,
 h2,
 h3,
 p,
-span,
-li,
-label {
+span {
   color: $font-color;
 }
 
 h1 {
   font-size: $primary-font-size;
-  color: $dark-green;
   line-height: 1;
   text-transform: uppercase;
+  font-family: $handwritten;
 }
 
 h2 {
-  font-family: 'Satisfy';
   font-size: $secondary-font-size;
-  font-weight: 500;
+  font-weight: 300;
+  font-family: $serif;
 }
 
 p {
   font-size: $paragraph-font-size;
   line-height: 1.5;
-}
-
-//buttons
-
-@mixin secondary-button {
-  height: 30px;
-  background: transparent;
-  border: 2px solid $dark-green;
-  border-radius: 3px;
-  color: $dark-green;
-  font-size: $paragraph-font-size;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 5px;
-}
-
-@mixin primary-button {
-  height: 40px;
-  background: $green;
-  border: none;
-  border-bottom: 3px solid $dark-green;
-  border-radius: 7px;
-  color: $dark-green;
-  padding: 5px 20px;
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-//layout
-
-$mobile-full-image-height: 250px;
-
-@mixin section-margins {
-  margin: 3rem 15px;
-}
-
-@mixin highlights-layout {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  margin-top: 2rem;
+  font-family: $sans;
+  font-weight: 400;
 }
