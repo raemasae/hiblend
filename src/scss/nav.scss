@@ -39,9 +39,13 @@
     }
 
     .utility-nav {
+      display: inline-flex;
+
       li {
         a {
           color: white;
+          font-size: 20px;
+          padding-left: 7px;
         }
       }
     }
