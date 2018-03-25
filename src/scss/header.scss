@@ -1,0 +1,25 @@
+.hiblend-header-text {
+  padding-top: 200px;
+  padding-right: 14%;
+
+  h2 {
+    @include headertext;
+  }
+
+  .header-text-one {
+    padding-left: 130px;
+  }
+
+  .header-text-two {
+    padding-left: 150px;
+  }
+
+  span {
+    font-family: $handwritten;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 4.5rem;
+    position: absolute;
+    z-index: 1;
+    top: -15px;
+  }
+}

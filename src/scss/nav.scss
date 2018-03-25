@@ -13,7 +13,7 @@
     left: 0;
     right: 0;
     top: 30px;
-    padding: 5px 0;
+    padding: 5px 15px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
@@ -40,8 +40,11 @@
 
     .utility-nav {
       display: inline-flex;
+      padding: 0;
 
       li {
+        margin: 0 3px;
+
         a {
           color: white;
           font-size: 20px;
