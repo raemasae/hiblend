@@ -1,0 +1,46 @@
+.footerlogo {
+  border-bottom: 1px solid $font-color;
+  margin: 0 30px;
+  position: relative;
+
+  a {
+    position: relative;
+    top: 30px;
+    left: 45%;
+
+    img {
+      background: white;
+      padding: 5px 30px;
+      width: 170px;
+    }
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 50px;
+
+  .foot {
+    width: calc(50% - 80px);
+    text-align: center;
+
+    .copyright {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    ul {
+      display: inline-flex;
+
+      li {
+        margin: 0 15px;
+
+        .foot-nav {
+          font-size: 1.1rem;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

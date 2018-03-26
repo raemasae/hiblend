@@ -11,6 +11,7 @@
 
 $font-color: #5a5858;
 $red: #ed512c;
+$darkyellow: #fcc305;
 
 //fonts
 
@@ -30,6 +31,7 @@ h1,
 h2,
 h3,
 p,
+a,
 span {
   color: $font-color;
 }
@@ -37,7 +39,6 @@ span {
 h1 {
   font-size: $primary-font-size;
   line-height: 1;
-  text-transform: uppercase;
   font-family: $handwritten;
 }
 
@@ -54,6 +55,19 @@ p {
   font-weight: 400;
 }
 
+.price {
+  font-size: 1.3rem;
+}
+
+.ingredient,
+.time {
+  font-size: 1rem;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
 @mixin headertext {
   color: white;
   text-align: center;
@@ -61,4 +75,28 @@ p {
   line-height: 1;
   position: relative;
   z-index: 2;
+}
+
+@mixin sectionheader {
+  font-size: 100px;
+  font-weight: 700;
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: auto;
+  line-height: 1;
+}
+
+@mixin menuheader {
+  font-family: $sans;
+  font-size: 1.5rem;
+  border-bottom: 0.25px solid $font-color;
+  margin-bottom: 30px;
+}
+
+.item {
+  h2 {
+    @include menuheader;
+  }
 }

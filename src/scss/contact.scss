@@ -1,0 +1,23 @@
+.contact-container {
+  justify-content: space-evenly;
+  margin-top: 70px;
+
+  .contact-col {
+    width: calc(40% - 30px);
+
+    .item {
+      .subheading {
+        border-bottom: none;
+        margin-bottom: 10px;
+        font-family: $serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 1.5rem;
+      }
+
+      .map {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
