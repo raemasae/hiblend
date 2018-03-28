@@ -75,6 +75,15 @@
         font-family: $sans;
         color: $font-color;
         font-weight: 700;
+        display: inline-flex;
+
+        .arrows {
+          display: block;
+          font-size: 2rem;
+          letter-spacing: -5px;
+          -webkit-transform: rotate(90deg);
+          margin: 0 7px;
+        }
       }
     }
   }
