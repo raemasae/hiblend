@@ -50,21 +50,34 @@
     }
   }
 
-  .col {
-    width: calc(60% - 30px);
-  }
-
-  .col-bowl {
-    width: calc(40% - 30px);
-  }
-
   .hb-back,
   .f-back {
     width: 100%;
   }
 
   .col.food-item {
-    width: calc(33% - 30px);
+    width: calc(50% - 30px);
+
+    .market {
+      font-size: 1rem;
+    }
+  }
+}
+
+.container.vertical-align {
+  align-items: center;
+
+  .col {
+    width: calc(60% - 30px);
+  }
+
+  .col-bowl {
+    width: calc(40% - 30px);
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
 }
 
