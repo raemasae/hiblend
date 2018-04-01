@@ -86,8 +86,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
 
       <nav class="location-nav">
         <ul>
-          <li><a href="#" id="">KEEAUMOKU <span class="arrows">>></span> </a></li>
-          <li><a href="#" id="">WAHIAWA <span class="arrows">>></span> </a></li>
+          <li class="keeaumoku active"><a href="#/">KEEAUMOKU <span class="arrows">>></span> </a></li>
+          <li class="wahiawa" onclick="myFunction()"><a href="#/">WAHIAWA <span class="arrows">>></span> </a></li>
         </ul>
       </nav>
 
@@ -129,6 +129,12 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     <p class="ingredient">
                       Pineapple, ginger, mint
                     </p>
+                  </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <p>
+                    Wahiawa Sunrise <span class="price">2.50</span>
                   </p>
                 </div>
 
@@ -382,6 +388,24 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     </p>
                 </div>
 
+                <div class="item wahiawa-menu">
+                  <p>
+                    Pump You Up <span class="price">8.75</span>
+                  </p>
+                    <p class="ingredient">
+                      Chocolate protein, acai, straberry, honey, banana, blueberry and almond milk
+                    </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <p>
+                    Soldier Smoothie <span class="price">8.50</span>
+                  </p>
+                    <p class="ingredient">
+                      Spinach, mixed greens, poi, bee pollen, banana, pineapple, mango and honey
+                    </p>
+                </div>
+
               </div>
           </div>
           <a class="back-button" href="#menu"><p class="back">
@@ -432,14 +456,6 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     </p>
                 </div>
 
-                <div class="item">
-                  <p>
-                    Half a Papaya <span class="price">3.50</span>
-                  </p>
-                    <p class="ingredient">
-                      Served with a lemon wedge
-                    </p>
-                </div>
               </div>
               <div class="col-bowl">
                 <img class="bowl"src="images/hiblend bowl.jpg" alt="HiBlend Bowl" />
@@ -520,7 +536,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     Baked Ahi <span class="price">*MP</span>
                   </p>
                     <p class="ingredient">
-                      Oven baked ahi, tomato, avocado, pepper jack cheese, and curly kale on croissant
+                      Oven baked ahi, tomato, avocado, Pepper Jack cheese, and curly kale on croissant
                     </p>
                 </div>
 
@@ -538,16 +554,25 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     The BALT <span class="price"> 11.25</span>
                   </p>
                     <p class="ingredient">
-                      Bacon, tomato, avocado, pepper jack cheese, kale, on croissant
+                      Bacon, tomato, avocado, Pepper Jack cheese, kale, on croissant
                     </p>
                 </div>
 
-                <div class="item">
+                <div class="item keeaumoku-menu">
                   <p>
                     Oven Roasted Turkey Sandwich  <span class="price"> 11.25</span>
                   </p>
                     <p class="ingredient">
-                      Smoked turkey, tomato, avocado, pepper jack cheese, and spinach on sourdough bread
+                      Smoked turkey, tomato, avocado, Pepper Jack cheese, and spinach on sourdough bread
+                    </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <p>
+                    Jidori Chicken Sandwich  <span class="price"> 11.25</span>
+                  </p>
+                    <p class="ingredient">
+                      Jidori chicken with tomato, avocado, Pepper Jack Cheese and spinach on sourdough bread
                     </p>
                 </div>
 
@@ -556,16 +581,25 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
                     The Steamer <span class="price"> 11.95</span>
                   </p>
                     <p class="ingredient">
-                      Steamed eggs, bacon, tomato, avocado, red onions, pepper jack cheese, and spinach on croissant
+                      Steamed eggs, bacon, tomato, avocado, red onions, Pepper Jack cheese, and spinach on croissant
                     </p>
                 </div>
 
-                <div class="item">
+                <div id="keeaumoku-menu" class="item">
                   <p>
                     Lox Bagel <span class="price"> 11.95</span>
                   </p>
                     <p class="ingredient">
                       Smoked salmon, red onions, capers, cream cheese on bagel
+                    </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <p>
+                    Grass Fed Kulana Burger <span class="price"> 14.95</span>
+                  </p>
+                    <p class="ingredient">
+                      Homemade Big Island short rib patty cooked to medium. All natural havarti cheese, fresh caramelized sweet onion, sautéed Hamakua mushroom, Kahumana red russian kale, tomato poblano pepper garlic infused guacamole, served on local artisan bun
                     </p>
                 </div>
 

@@ -62,27 +62,40 @@
   ul {
     width: 100%;
     display: inline-flex;
-    padding: 10px 0;
     padding-left: 0;
 
     li {
       width: 50%;
       text-align: center;
+      padding: 10px 0;
 
       a {
         font-size: 2rem;
         letter-spacing: 5px;
         font-family: $sans;
-        color: $font-color;
+        color: white;
         font-weight: 700;
         display: inline-flex;
 
         .arrows {
           display: block;
           font-size: 2rem;
+          color: white;
           letter-spacing: -5px;
-          -webkit-transform: rotate(90deg);
           margin: 0 7px;
+        }
+      }
+    }
+
+    .active {
+      background: #fcd556;
+
+      a {
+        color: $font-color;
+
+        .arrows {
+          -webkit-transform: rotate(90deg);
+          color: $font-color;
         }
       }
     }
