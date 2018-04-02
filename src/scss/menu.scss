@@ -27,6 +27,7 @@
   justify-content: space-between;
   margin: 50px;
   margin-top: 0;
+  position: relative;
 
   .drinkscol {
     width: calc(33% - 30px);
@@ -83,6 +84,10 @@
 
 .back-button {
   text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 70px;
 
   .back {
     border: 0.25px solid $font-color;

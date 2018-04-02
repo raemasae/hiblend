@@ -120,5 +120,11 @@
         font-family: $handwritten;
       }
     }
+
+    .selected {
+      a {
+        color: yellow;
+      }
+    }
   }
 }
