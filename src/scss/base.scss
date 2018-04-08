@@ -7,6 +7,14 @@
   list-style: none;
 }
 
+header,
+section,
+.instagram,
+footer {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
 //colors
 
 $font-color: #5a5858;

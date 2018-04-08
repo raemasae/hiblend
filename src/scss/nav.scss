@@ -13,11 +13,12 @@
     left: 0;
     right: 0;
     top: 30px;
-    padding: 5px 15px;
+    padding: 5px 30px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
     z-index: 5;
+    max-width: 1600px;
 
     .nav-logo img {
       width: 100px;
@@ -106,7 +107,8 @@
   text-align: center;
 
   ul {
-    width: 70%;
+    width: 100%;
+    max-width: 1200px;
     display: inline-flex;
     justify-content: center;
     padding-left: 0;
