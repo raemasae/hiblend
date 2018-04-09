@@ -55,6 +55,104 @@
       }
     }
   }
+
+  .mobile {
+    display: none;
+    background: transparent;
+    width: 60%;
+    height: 100vh;
+    left: 0;
+    right: auto;
+    top: 0;
+
+    ul {
+      display: none;
+    }
+
+    .toggle_button {
+      border-radius: 5px;
+      position: absolute;
+      left: 20px;
+      right: 0;
+      top: 15px;
+      background: rgba(0, 0, 0, 0.66);
+      height: 50px;
+      padding-left: 10px;
+      width: 60px;
+
+      a {
+        span {
+          display: block;
+          width: 22px;
+          height: 5px;
+          background: white;
+          position: relative;
+          top: 13px;
+          margin-bottom: 5px;
+        }
+
+        .short {
+          width: 38px;
+        }
+
+        .top {
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .mobile.open {
+    background: rgba(0, 0, 0, 0.66);
+
+    ul {
+      display: block;
+      padding-left: 0;
+      position: absolute;
+      top: 130px;
+    }
+
+    .toggle_button {
+      background: transparent;
+
+      .bottom {
+        display: none;
+      }
+
+      .short {
+        transform: rotate(45deg);
+        top: 21px;
+      }
+
+      .top {
+        transform: rotate(135deg);
+        width: 38px !important;
+        top: 16px;
+      }
+
+      span {
+        margin-bottom: 0;
+      }
+    }
+
+    .main-menu {
+      .nav-logo {
+        width: 80px;
+      }
+
+      li {
+        a {
+          padding-left: 0;
+          font-size: 1.7rem;
+        }
+      }
+    }
+
+    .utility-nav {
+      display: inline-flex;
+      top: 300px;
+    }
+  }
 }
 
 .location-nav {
