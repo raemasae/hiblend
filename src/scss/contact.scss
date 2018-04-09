@@ -26,6 +26,11 @@
         margin-bottom: 15px;
         overflow: hidden;
         max-height: 300px;
+
+        iframe {
+          width: 450px;
+          height: 500px;
+        }
       }
     }
 

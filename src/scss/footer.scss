@@ -4,9 +4,10 @@
   position: relative;
 
   a {
-    position: relative;
-    top: 30px;
-    left: 41%;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, 0);
 
     img {
       background: white;
@@ -19,7 +20,7 @@
 .footer-content {
   display: flex;
   justify-content: space-between;
-  margin: 15px 50px;
+  margin: 35px 50px;
   padding-bottom: 50px;
 
   .foot {

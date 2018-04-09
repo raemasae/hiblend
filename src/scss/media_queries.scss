@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .header-img {
     img {
       width: 50%;
@@ -8,6 +8,173 @@
   .contact-img.header-img {
     img {
       width: 60%;
+    }
+  }
+
+  .contact-col {
+    width: calc(50% - 100px) !important;
+
+    .map {
+      height: 250px;
+
+      iframe {
+        height: 250px;
+      }
+    }
+  }
+
+  .instagram {
+    iframe {
+      width: 100% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 766px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .hiblend-header-img {
+    height: 350px;
+
+    .hiblend-header-text {
+      padding-top: 150px;
+      padding-right: 20%;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      .header-text-two {
+        padding-left: 130px;
+      }
+    }
+  }
+
+  .home-intro {
+    p {
+      font-size: 1.4rem;
+      margin-left: 15%;
+    }
+  }
+
+  .header-img {
+    height: 300px;
+
+    img {
+      width: 70%;
+      opacity: 1;
+    }
+  }
+
+  .keeaumoku,
+  .wahiawa {
+    a {
+      font-size: 1.5rem !important;
+      line-height: 49px;
+    }
+  }
+
+  .menu-subnav {
+    ul {
+      li {
+        width: 100%;
+
+        a {
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+
+  .drinkscol,
+  .col,
+  .col-bowl,
+  .contact-col {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .drinkscol,
+  .food-item,
+  .wraps {
+    margin-bottom: 70px;
+
+    .sidebar {
+      .house {
+        .col-1 {
+          flex-flow: column;
+        }
+      }
+    }
+  }
+
+  .drinkscol:last-of-type,
+  .food-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .contact-img.header-img {
+    img {
+      width: 80%;
+    }
+  }
+
+  .contact-col {
+    text-align: left;
+    margin-bottom: 70px;
+  }
+
+  .contact-container .contact-col .item:nth-child(2) {
+    min-height: 0;
+  }
+
+  .contact-col:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .contact-container {
+    margin-bottom: 70px;
+  }
+
+  .instagram {
+    h1 {
+      margin: 70px 10px;
+      line-height: 1.3;
+    }
+
+    iframe.ig-desktop {
+      display: none;
+    }
+
+    .ig-mobile-wrapper {
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 70px;
+
+      iframe.lightwidget-widget.ig-mobile {
+        display: block;
+        width: 90%;
+        overflow: hidden;
+        border: none;
+      }
+    }
+  }
+
+  .footer {
+    .footer-content {
+      flex-flow: column;
+      margin-top: 50px;
+
+      .foot {
+        width: 100%;
+        margin-bottom: 30px;
+
+        ul {
+          padding-left: 0;
+        }
+      }
     }
   }
 }
