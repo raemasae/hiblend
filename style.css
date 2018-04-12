@@ -1,0 +1,675 @@
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Taviraj Thin Italic"),local(Taviraj-ThinItalic),url(//fonts.gstatic.com/s/taviraj/v2/nOIURTC0zHyf6UM4akHqv2fQcKutQXcIrRfyR5jdjY8.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/nOIURTC0zHyf6UM4akHqv44P5ICox8Kq3LLUNMylGO4.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/nOIURTC0zHyf6UM4akHqv4bN6UDyHWBl620a-IRfuBk.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Taviraj ExtraLight Italic"),local(Taviraj-ExtraLightItalic),url(//fonts.gstatic.com/s/taviraj/v2/eDMMTK5GhTdvvz3R-ZWva3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/eDMMTK5GhTdvvz3R-ZWva-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/eDMMTK5GhTdvvz3R-ZWva3hCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Taviraj Light Italic"),local(Taviraj-LightItalic),url(//fonts.gstatic.com/s/taviraj/v2/IEBfc1xGgsBbdCeXKNAtfXZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/IEBfc1xGgsBbdCeXKNAtfegdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/IEBfc1xGgsBbdCeXKNAtfXhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Taviraj Italic"),local(Taviraj-Italic),url(//fonts.gstatic.com/s/taviraj/v2/hQjMsxIZ7dY_aBVjZW6vg_Y6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/hQjMsxIZ7dY_aBVjZW6vg1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/hQjMsxIZ7dY_aBVjZW6vgz8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Taviraj Medium Italic"),local(Taviraj-MediumItalic),url(//fonts.gstatic.com/s/taviraj/v2/319qfe3yzAi9RNFu-dI9z3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/319qfe3yzAi9RNFu-dI9z-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/319qfe3yzAi9RNFu-dI9z3hCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 600;
+  src: local("Taviraj SemiBold Italic"),local(Taviraj-SemiBoldItalic),url(//fonts.gstatic.com/s/taviraj/v2/ofRN6EMiboGiM2Ga3cG_y3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/ofRN6EMiboGiM2Ga3cG_y-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/ofRN6EMiboGiM2Ga3cG_y3hCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Taviraj Bold Italic"),local(Taviraj-BoldItalic),url(//fonts.gstatic.com/s/taviraj/v2/4Yzb6i1xtMRZn9oAQ484nXZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/4Yzb6i1xtMRZn9oAQ484negdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/4Yzb6i1xtMRZn9oAQ484nXhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Taviraj ExtraBold Italic"),local(Taviraj-ExtraBoldItalic),url(//fonts.gstatic.com/s/taviraj/v2/MPtY5Qs3hwV4f0LUH-vVm3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/MPtY5Qs3hwV4f0LUH-vVm-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/MPtY5Qs3hwV4f0LUH-vVm3hCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Taviraj Black Italic"),local(Taviraj-BlackItalic),url(//fonts.gstatic.com/s/taviraj/v2/aDM2JaXSd_qo0nqKiBAq5HZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/aDM2JaXSd_qo0nqKiBAq5Ogdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/aDM2JaXSd_qo0nqKiBAq5HhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Taviraj Thin"),local(Taviraj-Thin),url(//fonts.gstatic.com/s/taviraj/v2/ckmqmH47GBhaEc1z8Er3M_Y6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/ckmqmH47GBhaEc1z8Er3M1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/ckmqmH47GBhaEc1z8Er3Mz8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Taviraj ExtraLight"),local(Taviraj-ExtraLight),url(//fonts.gstatic.com/s/taviraj/v2/c_407_s7SGvxuhoaqaoZ8VQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/c_407_s7SGvxuhoaqaoZ8fk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/c_407_s7SGvxuhoaqaoZ8RsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Taviraj Light"),local(Taviraj-Light),url(//fonts.gstatic.com/s/taviraj/v2/xX0ipSEDKTMdrTfaF7Px91QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/xX0ipSEDKTMdrTfaF7Px9_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/xX0ipSEDKTMdrTfaF7Px9xsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Taviraj Regular"),local(Taviraj-Regular),url(//fonts.gstatic.com/s/taviraj/v2/f4LNsvcRBL-biSku4kKLYg.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/XzsyKCA79IIyPgxNv-zU3g.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/IAeZowhZbn-d4lvAqYEaaA.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Taviraj Medium"),local(Taviraj-Medium),url(//fonts.gstatic.com/s/taviraj/v2/DfHevSKOD_VTePfqHA-iklQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/DfHevSKOD_VTePfqHA-ikvk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/DfHevSKOD_VTePfqHA-ikhsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Taviraj SemiBold"),local(Taviraj-SemiBold),url(//fonts.gstatic.com/s/taviraj/v2/HSriuOWOGq5g2ev-IcMr41QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/HSriuOWOGq5g2ev-IcMr4_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/HSriuOWOGq5g2ev-IcMr4xsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Taviraj Bold"),local(Taviraj-Bold),url(//fonts.gstatic.com/s/taviraj/v2/DDu4xhLQxtCTnB0-gjK-0VQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/DDu4xhLQxtCTnB0-gjK-0fk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/DDu4xhLQxtCTnB0-gjK-0RsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Taviraj ExtraBold"),local(Taviraj-ExtraBold),url(//fonts.gstatic.com/s/taviraj/v2/ho8ZfTrtpvroXxxsSaIBd1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/ho8ZfTrtpvroXxxsSaIBd_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/ho8ZfTrtpvroXxxsSaIBdxsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: Taviraj;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Taviraj Black"),local(Taviraj-Black),url(//fonts.gstatic.com/s/taviraj/v2/1W9fm7ij-MhbpkRMY9GAwVQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/taviraj/v2/1W9fm7ij-MhbpkRMY9GAwfk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/taviraj/v2/1W9fm7ij-MhbpkRMY9GAwRsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@font-face{
+  font-family: "Rock Salt";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Rock Salt"),local(RockSalt),url(//fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOPY6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/rocksalt/v6/Q94aHXFHGip10K5uxi1jOD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+@font-face{
+  font-family: Arsenal;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Arsenal Italic"),local(Arsenal-Italic),url(//fonts.gstatic.com/s/arsenal/v1/SyXrdER51c-tA-DaBD7hCvY6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/arsenal/v1/SyXrdER51c-tA-DaBD7hCltXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/arsenal/v1/SyXrdER51c-tA-DaBD7hCj8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+@font-face{
+  font-family: Arsenal;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Arsenal Bold Italic"),local(Arsenal-BoldItalic),url(//fonts.gstatic.com/s/arsenal/v1/AnUIg26c0nuMZMpNWtsDF3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/arsenal/v1/AnUIg26c0nuMZMpNWtsDF-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/arsenal/v1/AnUIg26c0nuMZMpNWtsDF3hCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+@font-face{
+  font-family: Arsenal;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Arsenal Regular"),local(Arsenal-Regular),url(//fonts.gstatic.com/s/arsenal/v1/RKIki6O-j2qPFG7SjU7jow.eot?#) format("eot"),url(//fonts.gstatic.com/s/arsenal/v1/ERd8ystuACCAfABkUtpxuw.woff2) format("woff2"),url(//fonts.gstatic.com/s/arsenal/v1/rPpk5HlqZn4Sk4kChKZ9mg.woff) format("woff"); }
+@font-face{
+  font-family: Arsenal;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Arsenal Bold"),local(Arsenal-Bold),url(//fonts.gstatic.com/s/arsenal/v1/5vJ32Pe8BCA1NkX59B6Ks1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/arsenal/v1/5vJ32Pe8BCA1NkX59B6Ks_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/arsenal/v1/5vJ32Pe8BCA1NkX59B6KsxsxEYwM7FgeyaSgU71cLG0.woff) format("woff"); }
+@import url("https://fonts.googleapis.com/css?family=Arsenal:400,700i|Rock+Salt|Taviraj:300,300i,400");
+@import url("https://fonts.googleapis.com/css?family=Arsenal:700");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Arsenal', helvetica;
+  text-decoration: none;
+  list-style: none; }
+
+header,
+section,
+.instagram,
+footer {
+  max-width: 1800px;
+  margin: 0 auto; }
+
+h1,
+h2,
+h3,
+p,
+li,
+a,
+span {
+  color: #5a5858; }
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1;
+  font-family: "Rock Salt", cursive; }
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: "Taviraj"; }
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: "Arsenal";
+  font-weight: 400; }
+
+.price {
+  font-size: 1.3rem; }
+
+.ingredient,
+.time {
+  font-size: 1rem; }
+
+.item {
+  margin-bottom: 30px; }
+
+.item h2 {
+  font-family: "Arsenal";
+  font-size: 1.5rem;
+  border-bottom: 0.25px solid #5a5858;
+  margin-bottom: 30px; }
+
+.hiblend-header-img {
+  background-image: url("src/images/sampler_bannerblur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, top;
+  height: 450px; }
+  .hiblend-header-img nav {
+    background: rgba(0, 0, 0, 0.46);
+    width: 90%;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    z-index: 5;
+    max-width: 1600px; }
+    .hiblend-header-img nav .nav-logo img {
+      width: 100px; }
+    .hiblend-header-img nav .main-menu {
+      display: inline-flex;
+      width: 100%;
+      justify-content: flex-end; }
+      .hiblend-header-img nav .main-menu li a {
+        color: white;
+        padding: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 400; }
+    .hiblend-header-img nav .utility-nav {
+      display: inline-flex;
+      padding: 0; }
+      .hiblend-header-img nav .utility-nav li {
+        margin: 0 3px; }
+        .hiblend-header-img nav .utility-nav li a {
+          color: white;
+          font-size: 20px;
+          padding-left: 7px; }
+  .hiblend-header-img .mobile {
+    display: none;
+    background: transparent;
+    width: 60%;
+    left: 0;
+    right: auto;
+    top: 0; }
+    .hiblend-header-img .mobile ul {
+      display: none; }
+    .hiblend-header-img .mobile .toggle_button {
+      border-radius: 5px;
+      position: absolute;
+      left: 20px;
+      right: 0;
+      top: 15px;
+      background: rgba(0, 0, 0, 0.66);
+      height: 50px;
+      padding-left: 10px;
+      width: 60px; }
+      .hiblend-header-img .mobile .toggle_button a span {
+        display: block;
+        width: 22px;
+        height: 5px;
+        background: white;
+        position: relative;
+        top: 13px;
+        margin-bottom: 5px; }
+      .hiblend-header-img .mobile .toggle_button a .short {
+        width: 38px; }
+      .hiblend-header-img .mobile .toggle_button a .top {
+        width: 30px; }
+  .hiblend-header-img .mobile.open {
+    background: rgba(0, 0, 0, 0.66);
+    height: 100vh; }
+    .hiblend-header-img .mobile.open ul {
+      display: block;
+      padding-left: 0;
+      position: absolute;
+      top: 130px; }
+    .hiblend-header-img .mobile.open .toggle_button {
+      background: transparent; }
+      .hiblend-header-img .mobile.open .toggle_button .bottom {
+        display: none; }
+      .hiblend-header-img .mobile.open .toggle_button .short {
+        transform: rotate(45deg);
+        top: 21px; }
+      .hiblend-header-img .mobile.open .toggle_button .top {
+        transform: rotate(135deg);
+        width: 38px !important;
+        top: 16px; }
+      .hiblend-header-img .mobile.open .toggle_button span {
+        margin-bottom: 0; }
+    .hiblend-header-img .mobile.open .main-menu .nav-logo {
+      width: 80px; }
+    .hiblend-header-img .mobile.open .main-menu li a {
+      padding-left: 0;
+      font-size: 1.7rem; }
+    .hiblend-header-img .mobile.open .utility-nav {
+      display: inline-flex;
+      top: 300px; }
+
+.location-nav {
+  background: #fcc305; }
+  .location-nav ul {
+    width: 100%;
+    display: inline-flex;
+    padding-left: 0; }
+    .location-nav ul li {
+      width: 50%;
+      text-align: center;
+      padding: 10px 0; }
+      .location-nav ul li a {
+        font-size: 2rem;
+        letter-spacing: 5px;
+        font-family: "Arsenal";
+        color: #f7edce;
+        font-weight: 700;
+        display: inline-flex; }
+        .location-nav ul li a .arrows {
+          display: block;
+          font-size: 2rem;
+          color: #f7edce;
+          letter-spacing: -5px;
+          margin: 0 7px; }
+    .location-nav ul .active {
+      background: #fcd556; }
+      .location-nav ul .active a {
+        color: #5a5858; }
+        .location-nav ul .active a .arrows {
+          -webkit-transform: rotate(90deg);
+          color: #5a5858; }
+
+.menu-subnav {
+  text-align: center; }
+  .menu-subnav ul {
+    width: 100%;
+    max-width: 1200px;
+    display: inline-flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 70px 0; }
+    .menu-subnav ul li {
+      width: 30%; }
+      .menu-subnav ul li a {
+        font-size: 1.7rem;
+        font-family: "Rock Salt", cursive; }
+    .menu-subnav ul .selected a {
+      color: #fcc305;
+      border-bottom: 1px solid #fcc305; }
+    .menu-subnav ul .wahiawamenu.selected a {
+      color: #ed512c;
+      border-bottom: 1px solid #ed512c; }
+
+.hiblend-header-text {
+  padding-top: 200px;
+  padding-right: 10%; }
+  .hiblend-header-text h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.9rem;
+    line-height: 1;
+    position: relative;
+    z-index: 2; }
+  .hiblend-header-text .header-text-one {
+    padding-left: 130px; }
+  .hiblend-header-text .header-text-two {
+    padding-left: 150px; }
+  .hiblend-header-text span {
+    font-family: "Rock Salt", cursive;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 4.5rem;
+    position: absolute;
+    z-index: 1;
+    top: -15px; }
+
+.row {
+  max-width: 900px;
+  margin: 100px auto; }
+  .row h1 {
+    color: #ed512c;
+    margin-left: 10%; }
+  .row p {
+    max-width: 600px;
+    margin-top: 30px;
+    margin-left: 23%;
+    margin-right: 10%;
+    font-size: 1.7rem; }
+
+.header-img {
+  background-image: url(images/pecansalad_banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 400px; }
+  .header-img img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    opacity: 0.9; }
+
+.contact-img.header-img {
+  background-image: url(images/spinachwrap_banner.jpg);
+  background-position: right; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px 50px;
+  margin-top: 0;
+  position: relative; }
+  .container .drinkscol {
+    width: calc(33% - 30px); }
+    .container .drinkscol .sampler .shotsamp {
+      font-weight: 700;
+      font-style: italic; }
+    .container .drinkscol .sampler .line .item-option {
+      font-style: italic;
+      margin-bottom: 30px; }
+    .container .drinkscol .sampler .line:nth-child(6) {
+      margin-top: 30px; }
+  .container .hb-back,
+  .container .f-back {
+    width: 100%;
+    bottom: -50px; }
+  .container .col.food-item {
+    width: calc(50% - 30px); }
+    .container .col.food-item .market {
+      font-size: 1rem; }
+
+.container.vertical-align {
+  align-items: center; }
+  .container.vertical-align .col {
+    width: calc(60% - 30px); }
+  .container.vertical-align .col-bowl {
+    width: calc(40% - 30px); }
+    .container.vertical-align .col-bowl img {
+      width: 100%;
+      object-fit: cover; }
+
+.back-button {
+  text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 100px; }
+  .back-button .back {
+    border: 0.25px solid #5a5858;
+    width: 200px;
+    font-size: 0.9rem;
+    padding: 5px 0;
+    margin: 0 auto; }
+
+.sidebar .house-dressings {
+  line-height: 1.3;
+  margin-bottom: 15px; }
+
+.sidebar .house ul {
+  display: flex;
+  justify-content: flex-start; }
+  .sidebar .house ul li {
+    margin-right: 25px;
+    font-style: italic; }
+
+.contact-img.header-img img {
+  width: 50%;
+  right: 0; }
+
+.contact-container {
+  justify-content: space-evenly;
+  margin-top: 70px; }
+  .contact-container .contact-col {
+    width: calc(40% - 30px); }
+    .contact-container .contact-col .item .subheading {
+      border-bottom: none;
+      margin-bottom: 10px;
+      font-family: "Taviraj";
+      font-weight: 300;
+      font-style: italic;
+      font-size: 1.5rem; }
+    .contact-container .contact-col .item .map {
+      margin-bottom: 15px;
+      overflow: hidden;
+      max-height: 300px; }
+      .contact-container .contact-col .item .map iframe {
+        width: 450px;
+        height: 500px; }
+    .contact-container .contact-col .item:nth-child(2) {
+      min-height: 100px; }
+
+.instagram .instagram-feed {
+  background-image: url(images/smokedsalmon_banner.jpg); }
+
+.instagram h1 {
+  color: #aac783;
+  text-align: center;
+  margin-top: 150px; }
+
+.instagram .ig-desktop {
+  display: block;
+  width: 90%;
+  margin: 70px auto;
+  border: none; }
+
+.instagram .ig-mobile {
+  display: none; }
+
+.footerlogo {
+  border-bottom: 1px solid #5a5858;
+  margin: 0 30px;
+  position: relative; }
+  .footerlogo a {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+    .footerlogo a img {
+      background: white;
+      padding: 5px 30px;
+      width: 170px; }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 50px;
+  padding-bottom: 50px; }
+  .footer-content .foot {
+    width: calc(50% - 80px);
+    text-align: center; }
+    .footer-content .foot .copyright {
+      font-size: 0.9rem;
+      text-align: center; }
+    .footer-content .foot ul {
+      display: inline-flex; }
+      .footer-content .foot ul li {
+        margin: 0 15px; }
+        .footer-content .foot ul li .foot-nav {
+          font-size: 1.1rem;
+          margin-right: 5px;
+          line-height: 1; }
+
+@media screen and (max-width: 1023px) {
+  .header-img img {
+    width: 50%; }
+  .contact-img.header-img img {
+    width: 60%; }
+  .contact-col {
+    width: calc(50% - 100px) !important; }
+    .contact-col .map {
+      height: 250px; }
+      .contact-col .map iframe {
+        height: 250px; }
+  .instagram iframe {
+    width: 100% !important; } }
+
+@media screen and (max-width: 766px) {
+  h1 {
+    font-size: 1.9rem; }
+  .hiblend-header-img {
+    height: 350px; }
+    .hiblend-header-img .hiblend-header-text {
+      padding-top: 150px;
+      padding-right: 20%; }
+      .hiblend-header-img .hiblend-header-text h2 {
+        font-size: 2.5rem; }
+      .hiblend-header-img .hiblend-header-text .header-text-two {
+        padding-left: 130px; }
+  .home-intro p {
+    font-size: 1.4rem;
+    margin-left: 15%; }
+  .header-img {
+    height: 300px; }
+    .header-img img {
+      width: 50%;
+      opacity: 1; }
+  .keeaumoku a,
+  .wahiawa a {
+    font-size: 1.5rem !important;
+    line-height: 49px; }
+  .menu-subnav ul li {
+    width: 100%; }
+    .menu-subnav ul li a {
+      font-size: 1.15rem; }
+  .drinkscol,
+  .col,
+  .col-bowl,
+  .contact-col {
+    width: 100% !important;
+    text-align: center; }
+  .drinkscol,
+  .food-item,
+  .wraps {
+    margin-bottom: 70px; }
+    .drinkscol .sidebar .house .col-1,
+    .food-item .sidebar .house .col-1,
+    .wraps .sidebar .house .col-1 {
+      flex-flow: column; }
+  .drinkscol:last-of-type,
+  .food-item:last-of-type {
+    margin-bottom: 0; }
+  .contact-img.header-img img {
+    width: 60%; }
+  .contact-col {
+    text-align: left;
+    margin-bottom: 70px; }
+  .contact-container .contact-col .item:nth-child(2) {
+    min-height: 0; }
+  .contact-col:last-of-type {
+    margin-bottom: 0; }
+  .contact-container {
+    margin-bottom: 70px; }
+  .instagram h1 {
+    margin: 70px 10px;
+    line-height: 1.3; }
+  .instagram iframe.ig-desktop {
+    display: none; }
+  .instagram .ig-mobile-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px; }
+    .instagram .ig-mobile-wrapper iframe.lightwidget-widget.ig-mobile {
+      display: block;
+      width: 90%;
+      overflow: hidden;
+      border: none; }
+  .footer .footer-content {
+    flex-flow: column;
+    margin-top: 50px; }
+    .footer .footer-content .foot {
+      width: 100%;
+      margin-bottom: 30px; }
+      .footer .footer-content .foot ul {
+        padding-left: 0; } }
+
+@media screen and (max-width: 500px) {
+  .main-nav {
+    display: none !important; }
+  .mobile {
+    display: block !important; }
+  .container {
+    margin: 70px 30px; }
+  .row {
+    margin: 50px auto; }
+  .home-intro h1 {
+    line-height: 1.3;
+    width: 80%; }
+  .hiblend-header-img {
+    height: 225px;
+    background-size: 200%; }
+    .hiblend-header-img .hiblend-header-text {
+      padding-right: 0 !important;
+      padding-top: 100px; }
+      .hiblend-header-img .hiblend-header-text .header-text-one {
+        padding-left: 0;
+        font-size: 2.2rem !important; }
+      .hiblend-header-img .hiblend-header-text .header-text-mid {
+        padding-right: 100px;
+        font-size: 2.2rem !important; }
+        .hiblend-header-img .hiblend-header-text .header-text-mid span {
+          font-size: 3.5rem;
+          top: -10px; }
+      .hiblend-header-img .hiblend-header-text .header-text-two {
+        padding-left: 30px !important;
+        font-size: 2.2rem !important; }
+  .header-img {
+    height: 178px;
+    background-size: 150%;
+    background-position: bottom center; }
+  .menu-img img,
+  .contact-img img {
+    top: 70px;
+    width: 50%; }
+  .drinkscol,
+  .food-item,
+  .wraps {
+    margin-bottom: 50px; }
+  .back-button {
+    bottom: 50px; }
+  .contact-img.header-img {
+    background-position: center; }
+    .contact-img.header-img img {
+      width: 60%; }
+  .contact-container {
+    margin: 50px 30px; }
+    .contact-container .contact-col {
+      margin-bottom: 50px; }
+    .contact-container .contact-col:last-of-type {
+      margin-bottom: 20px; }
+  .keeaumoku a,
+  .wahiawa a {
+    font-size: 1.15rem !important; }
+    .keeaumoku a .arrows,
+    .wahiawa a .arrows {
+      font-size: 1.7rem !important;
+      margin: 0 3px !important; }
+  .menu-subnav ul {
+    display: flex;
+    flex-flow: column;
+    margin: 50px 0; } }
