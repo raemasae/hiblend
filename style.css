@@ -588,6 +588,17 @@ p {
   .instagram h1 {
     margin: 70px 10px;
     line-height: 1.3; }
+  .instagram iframe.hiblend-ig {
+    width: 90%; }
+  .instagram .ig-mobile-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px; }
+    .instagram .ig-mobile-wrapper iframe.lightwidget-widget.ig-mobile {
+      display: block;
+      width: 90%;
+      overflow: hidden;
+      border: none; }
   .footer .footer-content {
     flex-flow: column;
     margin-top: 50px; }
