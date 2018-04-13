@@ -472,14 +472,11 @@ p {
   text-align: center;
   margin-top: 150px; }
 
-.instagram .ig-desktop {
-  display: block;
-  width: 90%;
-  margin: 70px auto;
-  border: none; }
-
-.instagram .ig-mobile {
-  display: none; }
+.instagram .ig-wrapper {
+  width: 100%;
+  margin: 70px auto; }
+  .instagram .ig-wrapper iframe[style] {
+    width: 100%; }
 
 .footerlogo {
   border-bottom: 1px solid #5a5858;
@@ -588,17 +585,10 @@ p {
   .instagram h1 {
     margin: 70px 10px;
     line-height: 1.3; }
-  .instagram iframe.hiblend-ig {
-    width: 90%; }
-  .instagram .ig-mobile-wrapper {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 70px; }
-    .instagram .ig-mobile-wrapper iframe.lightwidget-widget.ig-mobile {
-      display: block;
-      width: 90%;
-      overflow: hidden;
-      border: none; }
+  .instagram .ig-wrapper {
+    width: 70%;
+    margin: 70px auto;
+    text-align: center; }
   .footer .footer-content {
     flex-flow: column;
     margin-top: 50px; }

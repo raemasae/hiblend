@@ -9,14 +9,13 @@
     margin-top: 150px;
   }
 
-  .ig-desktop {
-    display: block;
-    width: 90%;
+  .ig-wrapper {
+    width: 100%;
     margin: 70px auto;
-    border: none;
-  }
 
-  .ig-mobile {
-    display: none;
+    iframe[style] {
+      // height: 250px !important;
+      width: 100%;
+    }
   }
 }
