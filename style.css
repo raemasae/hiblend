@@ -339,7 +339,7 @@ p {
   .hiblend-header-text img {
     width: 200px;
     position: relative;
-    left: 48%; }
+    left: 46%; }
   .hiblend-header-text .header-text-one {
     padding-left: 130px; }
   .hiblend-header-text .header-text-two {
@@ -541,8 +541,6 @@ p {
       padding-right: 20%; }
       .hiblend-header-img .hiblend-header-text h2 {
         font-size: 2.5rem; }
-      .hiblend-header-img .hiblend-header-text img {
-        left: 46%; }
       .hiblend-header-img .hiblend-header-text .header-text-one {
         padding-left: 150px; }
       .hiblend-header-img .hiblend-header-text .header-text-mid {
