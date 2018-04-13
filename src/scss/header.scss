@@ -1,9 +1,16 @@
 .hiblend-header-text {
-  padding-top: 200px;
+  padding-top: 150px;
   padding-right: 10%;
+  position: relative;
 
   h2 {
     @include headertext;
+  }
+
+  img {
+    width: 200px;
+    position: relative;
+    left: 48%;
   }
 
   .header-text-one {
