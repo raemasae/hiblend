@@ -607,7 +607,7 @@ p {
       .footer .footer-content .foot ul {
         padding-left: 0; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   .main-nav {
     display: none !important; }
   .mobile {
