@@ -657,6 +657,9 @@ p {
     margin-bottom: 50px; }
   .back-button {
     bottom: 50px; }
+  .back-button.hb-back,
+  .back-button.f-back {
+    margin-bottom: 30px; }
   .contact-img.header-img {
     background-position: center; }
     .contact-img.header-img img {
