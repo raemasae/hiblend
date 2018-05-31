@@ -64,3 +64,13 @@ $(document).ready(function(){
       return false;
   });
 });
+
+
+$(document).ready(function(){
+	$('.online-order').hide();
+	$('.online-order.kee').show();
+$('.loc-btn').click( function(){
+	$('.online-order').hide();
+     $('#t' + this.id).show();
+});
+});

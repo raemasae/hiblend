@@ -82,8 +82,8 @@
 
       <nav class="location-nav">
         <ul>
-          <li class="keeaumoku active"><a href="#/">KEEAUMOKU <span class="arrows">>></span> </a></li>
-          <li class="wahiawa" onclick="myFunction"><a href="#/">WAHIAWA <span class="arrows">>></span> </a></li>
+          <li id="1" class="keeaumoku active loc-btn"><a href="#/">KEEAUMOKU <span class="arrows">>></span> </a></li>
+          <li id="2" class="wahiawa loc-btn" onclick="myFunction"><a href="#/">WAHIAWA <span class="arrows">>></span> </a></li>
         </ul>
       </nav>
 
@@ -137,7 +137,7 @@
                   </p>
                 </div>
 
-                <div class="sampler">
+                <div class="sampler keeaumoku-menu">
                   <div class="line">
                     <p class="shotsamp">
                       Shot Sampler <span class="price">9.00</span>
@@ -270,12 +270,21 @@
                     </p>
                 </div>
 
-                <div class="item">
+                <div class="item keeaumoku-menu">
                   <p>
                     3-Carrot Bang <span class="price">  7.95</span>
                   </p>
                     <p class="ingredient">
                       Purple haze carrot, yellow carrot, orange carrot, apple, orange, lemon
+                    </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <p>
+                    Apple Carrot Zinger <span class="price">7.95</span>
+                  </p>
+                    <p class="ingredient">
+                      Apple, carrot, lemon, ginger
                     </p>
                 </div>
 
@@ -355,7 +364,7 @@
                   </p>
                     <p class="ingredient">
                       Banana, blueberry, strawberry, and your choice of milk:
-                      Soy, almond, coconut or whole
+                      Almond, coconut or whole
                     </p>
                 </div>
 
@@ -374,7 +383,7 @@
                     Acai Smoothie  <span class="price">  7.95</span>
                   </p>
                     <p class="ingredient">
-                      Cherry, strawberry, blueberry, acai, soy milk, granola
+                      Cherry, strawberry, blueberry, acai, almond milk, granola
                     </p>
                 </div>
 
@@ -409,6 +418,16 @@
           </div>
           <a class="back-button" href="#menu"><p class="back">
           BACK TO MENU OPTIONS >>
+          </p></a>
+
+          <a id="t1" class="back-button keeaumoku-menu online-order kee"
+           target="_blank" href="https://www.bitesquad.com/mobile/food/hiblend-health-bar-cafe/12002"><p class="back">
+          ORDER NOW >>
+          </p></a>
+
+          <a id="t2" class="back-button wahiawa-menu online-order wah"
+           target="_blank" href="https://www.quickcuisinehawaii.com/order/restaurant/hiblend-menu/86"><p class="back">
+          ORDER NOW >>
           </p></a>
         </div>
       </section>
@@ -462,6 +481,16 @@
               <a class="back-button hb-back" href="#menu"><p class="back">
               BACK TO MENU OPTIONS >>
               </p></a>
+
+              <a id="t1" class="back-button keeaumoku-menu online-order kee"
+               target="_blank" href="https://www.bitesquad.com/mobile/food/hiblend-health-bar-cafe/12002"><p class="back">
+              ORDER NOW >>
+              </p></a>
+
+              <a id="t2" class="back-button wahiawa-menu online-order wah"
+               target="_blank" href="https://www.quickcuisinehawaii.com/order/restaurant/hiblend-menu/86"><p class="back">
+              ORDER NOW >>
+              </p></a>
             </div>
           </div>
 
@@ -502,7 +531,7 @@
                     Farm Gone Wild <span class="price">13.95</span>
                   </p>
                     <p class="ingredient">
-                      Mixed greens, tossed with smoked turkey, apple, celery, cucumber, and homemade raspberry vinaigrette dressing. Topped with bacon, orange, strawberry, sesame seeds, chili flakes, cilantro and a drizzle of honey
+                      Mixed greens, tossed with Jidori chicken, apple, celery, cucumber, and homemade raspberry vinaigrette dressing. Topped with bacon, orange, strawberry, sesame seeds, chili flakes, cilantro and a drizzle of honey
                     </p>
                 </div>
 
@@ -515,7 +544,7 @@
                     </p>
                 </div>
 
-                <div class="item">
+                <div class="item keeaumoku-menu">
                   <h2>WRAPS</h2>
                   <p>
                     Spinach Turkey Caesar Wrap <span class="price">10.25</span>
@@ -524,17 +553,37 @@
                     Oven roasted turkey, spinach, tomato, avocado, parmesan cheese, red onions, and Caesar dressing in spinach wrap
                   </p>
                 </div>
+
+                <div class="item wahiawa-menu">
+                  <h2>WRAPS</h2>
+                  <p>
+                    Jidori Chicken Caesar Wrap <span class="price">10.25</span>
+                  </p>
+                  <p class="ingredient">
+                    Jidori chicken, spinach, tomato, avocado, parmesan cheese, red onions, and Caesar dressing in spinach wrap
+                  </p>
+                </div>
               </div>
 
               <div class="col food-item">
 
-                <div class="item">
+                <div class="item keeaumoku-menu">
                   <h2>SANDWICHES</h2>
                   <p>
                     Baked Ahi <span class="price">*MP</span>
                   </p>
                     <p class="ingredient">
                       Oven baked ahi, tomato, avocado, Pepper Jack cheese, and curly kale on croissant
+                    </p>
+                </div>
+
+                <div class="item wahiawa-menu">
+                  <h2>SANDWICHES</h2>
+                  <p>
+                    Braised Ahi <span class="price">*MP</span>
+                  </p>
+                    <p class="ingredient">
+                      Oven baked ahi, tomato, avocado, Munster cheese, and curly kale on Chibatta bread
                     </p>
                 </div>
 
@@ -594,12 +643,14 @@
 
                 <div class="item wahiawa-menu hide">
                   <p>
-                    Grass Fed Kulana Burger <span class="price"> 14.95</span>
+                    Grass Fed Kunoa Burger <span class="price"> 14.95</span>
                   </p>
                     <p class="ingredient">
-                      Homemade Big Island short rib patty cooked to medium. All natural havarti cheese, fresh caramelized sweet onion, sautéed Hamakua mushroom, Kahumana red russian kale, tomato poblano pepper garlic infused guacamole, served on local artisan bun
+                      Homemade Oahu short rib patty cooked to medium. All natural Pepperjack cheese, fresh caramelized sweet onion, Kahumana red russian kale, tomato poblano pepper garlic infused guacamole, served on local artisan bun
                     </p>
                 </div>
+
+                <p>All sandwiches include an organic side salad from Kahumana Farm</p>
 
                 <p class="market">
                   *MP = Market Price
@@ -626,6 +677,16 @@
 
               <a class="back-button f-back" href="#menu"><p class="back">
               BACK TO MENU OPTIONS >>
+              </p></a>
+
+              <a id="t1" class="back-button keeaumoku-menu online-order kee"
+               target="_blank" href="https://www.bitesquad.com/mobile/food/hiblend-health-bar-cafe/12002"><p class="back">
+              ORDER NOW >>
+              </p></a>
+
+              <a id="t2" class="back-button wahiawa-menu online-order wah"
+               target="_blank" href="https://www.quickcuisinehawaii.com/order/restaurant/hiblend-menu/86"><p class="back">
+              ORDER NOW >>
               </p></a>
             </div>
           </div>
