@@ -53,7 +53,6 @@
 
   .hb-back,
   .f-back {
-    width: 100%;
     bottom: -50px;
   }
 
@@ -62,6 +61,28 @@
 
     .market {
       font-size: 1rem;
+    }
+  }
+}
+
+.backbuttons {
+  display: flex;
+  justify-content: center;
+
+  .back-button {
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0 10px;
+
+    .back {
+      border: 0.25px solid $font-color;
+      width: 200px;
+      font-size: 0.9rem;
+      padding: 5px 0;
+      margin: 0 auto;
     }
   }
 }
@@ -81,21 +102,21 @@
       object-fit: cover;
     }
   }
+
+  .backbuttons {
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    right: 0;
+  }
 }
 
-.back-button {
-  text-align: center;
-  position: relative;
-  left: 0;
-  right: 0;
-  bottom: 100px;
-
-  .back {
-    border: 0.25px solid $font-color;
-    width: 200px;
-    font-size: 0.9rem;
-    padding: 5px 0;
-    margin: 0 auto;
+.container.f {
+  .backbuttons {
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -116,4 +137,14 @@
       }
     }
   }
+}
+
+.online-order p {
+  color: white;
+  border: none !important;
+  background: #8bc34a;
+}
+
+.market {
+  margin-bottom: 10px;
 }

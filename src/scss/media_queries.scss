@@ -310,4 +310,22 @@
       margin: 50px 0;
     }
   }
+
+  .drinkscol:last-of-type,
+  .col-bowl {
+    margin-bottom: 50px;
+  }
+
+  .container.vertical-align,
+  .container.f {
+    margin-bottom: 120px;
+  }
+
+  .backbuttons {
+    flex-direction: column;
+
+    .online-order {
+      margin-bottom: 10px;
+    }
+  }
 }

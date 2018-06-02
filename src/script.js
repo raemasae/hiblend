@@ -65,12 +65,17 @@ $(document).ready(function(){
   });
 });
 
+$('.loc-btn').click(() => {
+    $('html, body').animate({
+        scrollTop: $('.location-nav').offset().top-100
+    }, 200);
+});
 
-$(document).ready(function(){
-	$('.online-order').hide();
-	$('.online-order.kee').show();
-$('.loc-btn').click( function(){
-	$('.online-order').hide();
-     $('#t' + this.id).show();
-});
-});
+// $(document).ready(function(){
+// 	$('.online-order').hide();
+// 	$('.online-order.kee').show();
+// $('.loc-btn').click( function(){
+// 	$('.online-order').hide();
+//      $('#t' + this.id).show();
+// });
+// });

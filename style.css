@@ -402,12 +402,28 @@ p {
       margin-top: 30px; }
   .container .hb-back,
   .container .f-back {
-    width: 100%;
     bottom: -50px; }
   .container .col.food-item {
     width: calc(50% - 30px); }
     .container .col.food-item .market {
       font-size: 1rem; }
+
+.backbuttons {
+  display: flex;
+  justify-content: center; }
+  .backbuttons .back-button {
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0 10px; }
+    .backbuttons .back-button .back {
+      border: 0.25px solid #5a5858;
+      width: 200px;
+      font-size: 0.9rem;
+      padding: 5px 0;
+      margin: 0 auto; }
 
 .container.vertical-align {
   align-items: center; }
@@ -418,19 +434,17 @@ p {
     .container.vertical-align .col-bowl img {
       width: 100%;
       object-fit: cover; }
+  .container.vertical-align .backbuttons {
+    position: absolute;
+    bottom: -170px;
+    left: 0;
+    right: 0; }
 
-.back-button {
-  text-align: center;
-  position: relative;
+.container.f .backbuttons {
+  position: absolute;
+  bottom: -170px;
   left: 0;
-  right: 0;
-  bottom: 100px; }
-  .back-button .back {
-    border: 0.25px solid #5a5858;
-    width: 200px;
-    font-size: 0.9rem;
-    padding: 5px 0;
-    margin: 0 auto; }
+  right: 0; }
 
 .sidebar .house-dressings {
   line-height: 1.3;
@@ -442,6 +456,14 @@ p {
   .sidebar .house ul li {
     margin-right: 25px;
     font-style: italic; }
+
+.online-order p {
+  color: white;
+  border: none !important;
+  background: #8bc34a; }
+
+.market {
+  margin-bottom: 10px; }
 
 .contact-img.header-img img {
   width: 50%;
@@ -680,4 +702,14 @@ p {
   .menu-subnav ul {
     display: flex;
     flex-flow: column;
-    margin: 50px 0; } }
+    margin: 50px 0; }
+  .drinkscol:last-of-type,
+  .col-bowl {
+    margin-bottom: 50px; }
+  .container.vertical-align,
+  .container.f {
+    margin-bottom: 120px; }
+  .backbuttons {
+    flex-direction: column; }
+    .backbuttons .online-order {
+      margin-bottom: 10px; } }
