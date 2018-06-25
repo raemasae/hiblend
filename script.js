@@ -56,6 +56,18 @@ $(document).ready(function(){
 
 });
 
+$('.wahiawa').click(function() {
+    $('.drinkscol').css({
+        'width': 'calc(50% - 30px)'
+    });
+});
+
+$('.keeaumoku').click(function() {
+    $('.drinkscol').css({
+        'width': 'calc(33% - 30px)'
+    });
+});
+
 $(document).ready(function(){
   $('.main-nav a').click(function(){
       $('html, body').animate({
@@ -70,12 +82,3 @@ $('.loc-btn').click(() => {
         scrollTop: $('.location-nav').offset().top-100
     }, 200);
 });
-
-// $(document).ready(function(){
-// 	$('.online-order').hide();
-// 	$('.online-order.kee').show();
-// $('.loc-btn').click( function(){
-// 	$('.online-order').hide();
-//      $('#t' + this.id).show();
-// });
-// });

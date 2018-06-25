@@ -172,7 +172,7 @@ p {
   margin-bottom: 30px; }
 
 .hiblend-header-img {
-  background-image: url("src/images/sampler_bannerblur.jpg");
+  background-image: url("src/images/sampler_bannerblur_white.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center, top;
@@ -464,6 +464,9 @@ p {
 
 .market {
   margin-bottom: 10px; }
+
+.wahiawa-style {
+  width: calc(50% - 30px); }
 
 .contact-img.header-img img {
   width: 50%;
