@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	event.preventDefault();
 	$('.mobile').click(function(){
 		$(this).toggleClass('open', 2000,'easeOutSine');
 	});
