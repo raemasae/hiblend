@@ -365,6 +365,10 @@ p {
     margin-right: 10%;
     font-size: 1.7rem; }
 
+.menu-header-text,
+.contact-header-text {
+  color: transparent; }
+
 .header-img {
   background-image: url(images/pecansalad_banner.jpg);
   background-size: cover;
